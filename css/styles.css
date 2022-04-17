@@ -1,4 +1,14 @@
-.main-page 
-{
-background: linear-gradient(270deg, #A5DEFF 0%, #ffffff 100%);
+html, 
+body {
+    height: 100%;
+}
+
+.main-page {
+    height: 100%;
+    /* width: 1360px; */
+    background: linear-gradient(270deg, #A5DEFF 05%, #FCFEFF 95%);
+}
+
+.wrapper {
+    width: 1170px;
 }
