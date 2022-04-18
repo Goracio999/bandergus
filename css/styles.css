@@ -88,5 +88,68 @@ header {
 
 .gus_image {
     align-self: flex-end;
-    /* display: flex; */
+}
+
+.gus-facts {
+    padding: 52px 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.truzub {
+    margin-bottom: 16px;
+}
+
+.main-gus-fact {
+    width: 875px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.gus-facts-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gus-facts-img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.gus-facts-title {
+    margin-bottom: 24px;
+    padding: 0 24px;
+}
+
+.gus-facts-description {
+    padding: 0 24px;
+}
+
+.gus-fact-1 {
+    margin-top: 0;
+    width: 32%;
+}
+
+.gus-fact-2 {
+    margin-top: 172px;
+    width: 32%;
+}
+
+.gus-fact-3 {
+    margin-top: 344px;
+    width: 32%;
+}
+
+
+.footer_group {
+    background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%);
+    margin: 16px 95px 70px 95px;
+    height: 360px;
+    padding: 52px 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

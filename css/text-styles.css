@@ -5,3 +5,21 @@
     font-size: 16px;
     line-height: 24px;
 }
+
+.sub_accent_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    text-align: center;
+}
+/* sub_header_text */
+.sub_header_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+}
