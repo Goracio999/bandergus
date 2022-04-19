@@ -182,10 +182,18 @@ header {
     top: 0;
     left: 0;
     background: rgba(27, 29, 31, 0.7);
-    /* opacity: 0.7; */
     display: flex;
     align-items: center;
     justify-content: center;
+    /* action section */
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+}
+/* Modal activation class */
+.modal-active {
+    opacity: 1;
+    pointer-events: all;
 }
 
 .modal-form {
@@ -247,4 +255,27 @@ header {
     border: 0;
     color: #FfFfFF;
     margin-top: 16px;
+}
+
+.modal-form-success {
+    background: #fff;
+    opacity: 1;
+    padding: 32px 0px 60px 0px;
+    width: 576px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.modal-text-glory {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 48px;
+    width: 100%;
+    background: #005BBB;
+    text-align: center;
+    color: #FFD500;
 }
