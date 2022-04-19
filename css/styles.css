@@ -147,7 +147,6 @@ header {
     width: 32%;
 }
 
-
 .footer_group {
    
     height: 360px;
@@ -174,4 +173,78 @@ header {
 .footer-text {
     padding: 0 128px;
     text-align: center;
+}
+
+.modal-bgd {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(27, 29, 31, 0.7);
+    /* opacity: 0.7; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-form {
+    background: #fff;
+    opacity: 1;
+    padding: 32px 92px 60px 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.close-modal-btn {
+    position: absolute; 
+    top: 32px;
+    right: 32px;
+    border: 0;
+    background-color: #fff;
+}
+
+.modal-form-title {
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.modal-form-text {
+    padding: 0 128px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.modal-form-field {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.modal-field-name {
+    margin-bottom: 8px;
+}
+
+.modal-field-input {
+    border: 2px solid #005BBB;
+    border-radius: 8px;
+    height: 42px;
+    width: 352px;
+    padding-left: 16px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.gus-launch-btn {
+    padding: 12px 24px;
+    width: 182px;
+    height: 48px;
+    background: #FF6B0A;
+    border-radius: 8px;
+    border: 0;
+    color: #FfFfFF;
+    margin-top: 16px;
 }
